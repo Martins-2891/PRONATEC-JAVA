@@ -1,0 +1,41 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+
+        System.out.println();
+         System.out.println();
+         boolean var_boolean = false;
+         int idade = 20;
+         float peso = 90.7f;
+         double altura = 190;
+         char letra ='c';
+        String nomeCompleto = "João Das Neves Francisco";
+        /*System.out.println("O conteúdo da varíavel boolean : " + var_boolean);
+        System.out.println("O conteúdo da varíavel inteiro : " + idade);
+        System.out.println("O conteúdo da varíavel float : " + peso);
+        System.out.println("O conteúdo da varíavel double : " +altura);
+        System.out.println("O conteúdo da varíavel char : " +letra);
+        System.out.println("O conteúdo da varíavel String : " +nome);
+        System.out.println(" João Das Neves : " +idade);*/
+        //System.out.println("nome : " +nomeCompleto +" tem " +idade + " anos. ");
+         //System.out.println("nome : " +nomeCompleto +" tem " +idade + " anos. ");
+         System.out.println(nomeCompleto.toUpperCase());
+         System.out.println(" Conversão para miúscula : " +nomeCompleto.toUpperCase());
+         System.out.println(nomeCompleto.toUpperCase());
+         System.out.println(" Conversão para minusculo : " +nomeCompleto.toLowerCase());
+          System.out.println(" Conversão para miúscula : " +nomeCompleto.length());
+          //length contagem de caracteres
+          //Comparar caractecres ou String dentro de ums String -equals('char')
+          System.out.println(nomeCompleto.equals("João")) ;
+          //String false
+          System.out.println(nomeCompleto.equals("João Das Neves Francisco")) ;
+          //String verdadeira true
+
+
+        
+ 
+    }
+}
