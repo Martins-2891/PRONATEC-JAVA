@@ -1,0 +1,30 @@
+
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+        int x = 10;
+        int y = 20;
+
+        System.out.println( "Soma : " +(x + y));
+
+        System.out.println( "Subtracao : " + (x - y));
+
+        System.out.println( "Multiplicacao :" +(x * y));
+        
+        System.out.println( "Divisão : " +(y / x));
+
+        System.out.println( "Resto da divisão : " +(y % x));
+
+        if ( y%x ==0)
+
+        System.out.println( "Numero par ! " );
+        else
+        System.out.println( "Numero impar !");
+
+
+
+
+    }
+}
